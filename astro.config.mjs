@@ -2,9 +2,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide';
-
-import vercel from '@astrojs/vercel';
-
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
