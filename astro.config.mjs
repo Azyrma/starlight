@@ -2,10 +2,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide';
-import { Analytics } from '@vercel/analytics/astro';
 
 // https://astro.build/config
 export default defineConfig({
+	output: 'server',
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapide()],

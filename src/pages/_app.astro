@@ -1,0 +1,16 @@
+---
+import { Analytics } from '@vercel/analytics/react';
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Your Starlight Site</title>
+  </head>
+  <body>
+    <slot />
+    <Analytics />
+  </body>
+</html>
